@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | KJ Entertainment</title>
+  <meta name="description" content="Contact Kevin Johnson and KJ Entertainment for film, documentary, commercial, corporate media, and branded content inquiries.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="KJ Entertainment home">KJ</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Toggle navigation</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="about.html" data-page="about.html">About</a>
+      <a href="company.html" data-page="company.html">Company</a>
+      <a href="films.html" data-page="films.html">Projects</a>
+      <a href="awards.html" data-page="awards.html">Awards</a>
+      <a href="contact.html" data-page="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-section">
+      <div class="container narrow">
+        <p class="eyebrow reveal">Contact</p>
+        <h1 class="page-title reveal">Get in Touch</h1>
+      </div>
+    </section>
+
+    <section class="page-section section-ruled">
+      <div class="container contact-layout">
+        <div class="contact-details reveal">
+          <h2>Kevin Johnson</h2>
+          <p>Founder &amp; Director, KJ Entertainment</p>
+          <dl class="details-list contact-list">
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:hello@jkent.pro">hello@jkent.pro</a></dd>
+            </div>
+            <div>
+              <dt>Address</dt>
+              <dd>10736 Magnolia Blvd<br>North Hollywood, CA 91601</dd>
+            </div>
+            <div>
+              <dt>Web</dt>
+              <dd><a href="https://jkent.pro">jkent.pro</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="contact-form reveal" method="POST" action="#">
+          <label for="full-name">Full Name</label>
+          <input id="full-name" name="full-name" type="text" autocomplete="name" required>
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="project-type">Project Type</label>
+          <select id="project-type" name="project-type" required>
+            <option value="">Select a project type</option>
+            <option>Film Production</option>
+            <option>Documentary</option>
+            <option>Commercial</option>
+            <option>Corporate Media</option>
+            <option>Music Video</option>
+            <option>General Inquiry</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="button button-primary form-submit" type="submit">Send Message</button>
+          <p class="form-note">Typical response within 24&ndash;48 hours.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h2>KJ Entertainment</h2>
+        <p>Cinematic storytelling. Authentic vision.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="company.html">Company</a>
+        <a href="films.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="mailto:hello@jkent.pro">hello@jkent.pro</a>
+        <a href="https://jkent.pro">jkent.pro</a>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; KJ Entertainment. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
